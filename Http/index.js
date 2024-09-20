@@ -4,6 +4,8 @@ const fs = require("fs")
 
 
 const app = http.createServer((req,res)=>{
+    console.log(req.headers);
+    res.setHeader("X-Myname","Roshan")
     if (req.method == "GET"){
        
         switch (req.url){
