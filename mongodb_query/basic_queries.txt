@@ -1,0 +1,4 @@
+1. How do you list all the database present in your mongoDB server?
+--> mongosh
+    |
+    |->show dbs

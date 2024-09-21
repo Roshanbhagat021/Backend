@@ -1,0 +1,2 @@
+1. Find the employee with employee id 25.
+--> db.new_employees.find({employee_id:25})
