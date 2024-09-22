@@ -2,3 +2,6 @@
 --> mongosh
     |
     |->show dbs
+
+2. what command is used to create or switch to a database in mongoDB?
+--> use <collection_name>    
