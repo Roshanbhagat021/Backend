@@ -5,3 +5,6 @@
 
 2. what command is used to create or switch to a database in mongoDB?
 --> use <collection_name>    
+
+3.How you can create a collection named "students" in your mongoDB database?
+--> db.createCollection("students")
