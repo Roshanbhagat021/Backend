@@ -8,3 +8,7 @@
 
 3.How you can create a collection named "students" in your mongoDB database?
 --> db.createCollection("students")
+
+
+Write the command to insert a single document into the "students" collection with at least three fields: name, age, and course.
+--> db.students.insertOne({name:"Roshan", age:20, course: "Python 100Days of code"})
