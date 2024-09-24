@@ -1,2 +1,44 @@
 1. Find the employee with employee id 25.
 --> db.new_employees.find({employee_id:25})
+
+2.  Find all employees in Department3.
+--> db.new_employees.find({department:"Department3"})
+
+3. List all employees with a salary greater than 55000.
+--> db.new_employees.find({salary:{$gt:55000}})
+
+4. Count the number of employees in Department1.
+--> db.new_employees.find({department:"Department1"}).count()  // 5
+
+5. Increase the salary of the employee with employee_id 50 by 5000.
+--> db.new_employees.updateOne({employee_id:20}, {$inc:{salary:5000}})
+
+6. Find all employees who joined after 2022-01-15.
+--> db.new_employees.find({date_joined:{$gt:"2022-01-26"}})
+
+7. Delete the employee with employee_id 10.
+--> db.new_employees.deleteOne({employee_id:10})
+
+8. Find all employees whose last name starts with 'L'.
+--> db.new_employees.find({last_name:{$regex:"L"}})
+
+9. Find all employees with no manager (manager_id is None).
+--> db.new_employees.find({manager_id:null})
+
+10. Find all employees who are older than 30.
+--> db.new_employees.find({age:{$gt:30}})
+
+11. Update the department of the employee with employee_id 75 to Department2.
+--> db.new_employees.updateOne({employee_id:75},{$set:{department: "Department2"}})
+
+12. Find all employees whose email contains 'firstname5'.
+--> db.new_employees.find({email:{$regex:"firstname5"}})
+
+13. Find all employees who joined on or before 2022-01-10.
+--> db.new_employees.find({date_joined:{$lte:"2022-01-10"}})
+
+14. Retrieve all employees sorted by salary in descending order.
+--> db.new_employees.find().sort({salary:-1})
+
+15. Count the number of employees who are in Department4 and have a salary above 52000.
+--> db.new_employees.find({department:"Department4",salary:{$gt:53000}})
