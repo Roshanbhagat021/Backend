@@ -1,0 +1,28 @@
+
+Today learnt about 
+𝐒𝐐𝐋 (𝐒𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞𝐝 𝐐𝐮𝐞𝐫𝐲 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞) is a programming language specifically designed for managing and manipulating relational databases.
+and did some ddl commands
+
+ 𝐃𝐃𝐋 (𝐃𝐚𝐭𝐚 𝐃𝐞𝐟𝐢𝐧𝐢𝐭𝐢𝐨𝐧 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞) – For defining and modifying the structure of the database and tables
+like:
+creating a database:
+𝘊𝘙𝘌𝘈𝘛𝘌 𝘋𝘈𝘛𝘈𝘉𝘈𝘚𝘌 𝘦𝘮𝘱𝘭𝘰𝘺𝘦𝘦𝘴;
+
+creating a table:
+𝘊𝘙𝘌𝘈𝘛𝘌𝘛𝘈𝘉𝘓𝘌 𝘦𝘮𝘱𝘭𝘰𝘺𝘦𝘦𝘴 (
+ 𝘪𝘥 𝘐𝘕𝘛𝘗𝘙𝘐𝘔𝘈𝘙𝘠 𝘒𝘌𝘠,
+ 𝘯𝘢𝘮𝘦 𝘝𝘈𝘙𝘊𝘏𝘈𝘙(50),
+ 𝘥𝘦𝘱𝘢𝘳𝘵𝘮𝘦𝘯𝘵 𝘝𝘈𝘙𝘊𝘏𝘈𝘙(50),
+ 𝘴𝘢𝘭𝘢𝘳𝘺 𝘋𝘌𝘊𝘐𝘔𝘈𝘓(10, 2) );
+
+adding a column into table:
+𝘈𝘓𝘛𝘌𝘙𝘛𝘈𝘉𝘓𝘌 𝘦𝘮𝘱𝘭𝘰𝘺𝘦𝘦𝘴 𝘈𝘋𝘋𝘊𝘖𝘓𝘜𝘔𝘕 𝘩𝘪𝘳𝘦_𝘥𝘢𝘵𝘦 𝘋𝘈𝘛𝘌;
+
+deleting a table:
+𝘋𝘙𝘖𝘗𝘛𝘈𝘉𝘓𝘌 𝘦𝘮𝘱𝘭𝘰𝘺𝘦𝘦𝘴;
+
+deleting a database:
+𝘋𝘙𝘖𝘗 𝘋𝘈𝘛𝘈𝘉𝘈𝘚𝘌 𝘤𝘰𝘮𝘱𝘢𝘯𝘺_𝘥𝘣;
+
+Masai | Prepleaf by Masai
+hashtag#dailylearning hashtag#backend hashtag#sql hashtag#learning
