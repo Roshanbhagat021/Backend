@@ -1,6 +1,7 @@
 const { nanoid } = require("nanoid");
 const URL = require("../models/url")
 
+// urlshortner route
 const genrateNewShortURL = async (req, res) => {
     const shortID = nanoid(8)
     if (!req.body.url) {
@@ -18,6 +19,7 @@ const genrateNewShortURL = async (req, res) => {
 
 }
 
+// analytics route
 const getAnalytics = async(req,res)=>{
     shortId = req.params.shortID
     const result = await URL.findOne({shortId})
@@ -26,6 +28,7 @@ const getAnalytics = async(req,res)=>{
         analytics: result.viewhistory,
     });
 }
+
 
 module.exports = {
     genrateNewShortURL, getAnalytics
