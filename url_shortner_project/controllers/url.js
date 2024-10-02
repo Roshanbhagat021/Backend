@@ -18,7 +18,6 @@ const genrateNewShortURL = async (req, res) => {
 
 }
 
-
 const getAnalytics = async(req,res)=>{
     shortId = req.params.shortID
     const result = await URL.findOne({shortId})

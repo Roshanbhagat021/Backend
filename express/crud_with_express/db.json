@@ -1,0 +1,31 @@
+{
+  "todos": [
+    {
+      "title": "create a routine for going gym.",
+      "iscompleted": false,
+      "assignee": "Roshan"
+    },
+    {
+      "title": "Go to tample with lalit.",
+      "iscompleted": false,
+      "assignee": "Roshan"
+    },
+    {
+      "title": "Do some assignments of backend.",
+      "iscompleted": false,
+      "assignee": "Roshan"
+    },
+    {
+      "title": "Visit tample",
+      "assignee": "Roshan"
+    },
+    {
+      "title": "call lalit",
+      "assignedto": "Roshan"
+    },
+    {
+      "title": "call now",
+      "assignee": "Roshan"
+    }
+  ]
+}
