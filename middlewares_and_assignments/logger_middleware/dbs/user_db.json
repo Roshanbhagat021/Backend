@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "Name": "Roshan",
+      "email": "roshan@gmail.com",
+      "password": 1815198114,
+      "id": 1
+    },
+    {
+      "Name": "James_bond",
+      "email": "roshanking007@gmail.com",
+      "password": "Dell2004",
+      "id": 2
+    },
+    {
+      "Name": "spiderman stark",
+      "emal": "spicer123@gmail.com",
+      "password": "uncle_ban",
+      "id": 7
+    },
+    {
+      "Name": "captain stark",
+      "email": "spicer123@gmail.com",
+      "password": "with_great_powers_comes_great_responsiblity",
+      "id": 7
+    },
+    {
+      "Name": "Blackpanther",
+      "email": "spicer123@gmail.com",
+      "password": "titeniam",
+      "id": 11
+    },
+    {
+      "Name": "Blackpanther",
+      "email": "spicer123@gmail.com",
+      "password": "titeniam",
+      "id": 11
+    },
+    {
+      "Name": "Blackpanther",
+      "email": "spicer123@gmail.com",
+      "password": "titeniam",
+      "id": 11
+    },
+    {
+      "Name": "Blackpanther",
+      "email": "spicer123@gmail.com",
+      "password": "titeniam",
+      "id": 11
+    },
+    {
+      "Name": "Blackpanther",
+      "email": "spicer123@gmail.com",
+      "password": "titeniam",
+      "id": 11
+    },
+    {
+      "Name": "Blackpanther",
+      "email": "spicer123@gmail.com",
+      "password": "titeniam",
+      "id": 11
+    }
+  ]
+}
