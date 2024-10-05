@@ -1,6 +1,7 @@
 const express = require("express")
 const connectToDb = require("./config/db_connection")
 const userRouter = require("./routes/user.route")
+const productRouter = require("./routes/product.route")
 
 const app = express()
 app.use(express.json())
@@ -14,7 +15,7 @@ app.get("/",(req,res)=>{
 
 
 app.use("/user", userRouter)
-
+app.use("/product", productRouter)
 
 
 app.listen(PORT,()=>{
