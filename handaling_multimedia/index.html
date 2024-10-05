@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and Drop File Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Upload Your Files</h2>
+    <form id="file-upload-form">
+      <div class="drag-area" id="drop-area">
+        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <header>Drag & Drop to Upload File</header>
+        <span>OR</span>
+        <input type="file" id="file-input" hidden multiple>
+        <button type="button" id="browse-btn">Browse File</button>
+      </div>
+      <div id="file-list"></div>
+    </form>
+  </div>
+
+  <!-- Font Awesome for icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .drag-area {
+    border: 2px dashed #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .drag-area:hover {
+    border-color: #6777ef;
+  }
+  
+  .drag-area .icon {
+    font-size: 50px;
+    color: #6777ef;
+  }
+  
+  header {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .drag-area span {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6777ef;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5a67d8;
+  }
+  
+  #file-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #file-list .file-item {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
