@@ -25,26 +25,26 @@ registerAndLoginRoute.post("/register", async (req, res) => {
   }
 });
 
-
 registerAndLoginRoute.post("/login", async (req, res) => {
-    const {username} = req.body;
+  const { username, password } = req.body;
   try {
-
+    // checks weather user exits or not, if not then send a response with "User not found"
     const user = await UserModel.findOne({ username });
     if (!user) {
       res.send("User not Found! Please try to register first!");
       return;
     }
-
+    // console.log("user: ", user);
+    // checking for password is correct or not, if not response with incorrect password 
     const isPasswordMatched = await bcrypt.compareSync(password, user.password);
     if (!isPasswordMatched) {
       res.send("Password is incorrect");
       return;
     }
 
-    
-    const token = jwt.sign({user}, "shhhhh");
-    res.json({ token });
+    // if user exits and password is correct then send a token 
+    const token = jwt.sign({ user }, "shhhhh");
+    res.json({ msg:"Login successfull", token });
   } catch (error) {
     console.log("error: ", error.message);
     res.status(500).json(error.message);
