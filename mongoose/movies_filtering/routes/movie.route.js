@@ -1,56 +1,24 @@
 const express = require("express");
-const MoviesModel = require("../models/movies.model");
+
+const {
+  getAllmovies,
+  creteNewmovie,
+  updateMovie,
+  deleteMovie,
+} = require("../controllers/movies.controllers");
 
 const moviesRouter = express.Router();
 
-moviesRouter.get("/all",async (req, res) => {
+// all movies route
+moviesRouter.get("/all", getAllmovies);
 
-    try {
-        const movies_list = await MoviesModel.find({})
-        res.send(movies_list)
-    } catch (error) {
-        console.log('error: ', error.message);
-        res.status(500).json({err:error.message})
-    }
-   
-});
+// new movies creation route
+moviesRouter.post("/create", creteNewmovie);
 
-moviesRouter.post("/create", async (req, res) => {
-  try {
-    const new_movie = new MoviesModel(req.body);
-    const saved_movie = await new_movie.save();
-    console.log(saved_movie);
-    res.status(201).json(saved_movie)
-  } catch (error) {
-    console.log("error: ", error.message);
-    res.status(500).json({err:error.message})
-  }
-});
+// edit or update any movie route with the help of id
+moviesRouter.patch("/update/:id", updateMovie);
 
-moviesRouter.patch("/update/:id", async(req,res)=>{
-    const {id} = req.params
-    try {
-        const updated_movie = await MoviesModel.findByIdAndUpdate(id, req.body, {new:true})
-        console.log('update_movie: ', updated_movie);
-        res.status(200).send(updated_movie)
-    } catch (error) {
-        console.log('error: ', error.message);
-        res.status(500).json({err:error.message})
-        
-    }
-})
-
-moviesRouter.delete("/delete/:id", async(req,res)=>{
-    const {id} = req.params
-    try {
-       await MoviesModel.findByIdAndDelete(id)
-        
-        res.status(200).send({msg:`movie with id ${id} deleted`})
-    } catch (error) {
-        console.log('error: ', error.message);
-        res.status(500).json({err:error.message})
-        
-    }
-})
+// delete any movie with the help of id
+moviesRouter.delete("/delete/:id", deleteMovie);
 
 module.exports = moviesRouter;
