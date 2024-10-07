@@ -44,7 +44,7 @@ registerAndLoginRoute.post("/login", async (req, res) => {
 
     // if user exits and password is correct then send a token 
     const token = jwt.sign({ user }, "shhhhh");
-    res.json({ msg:"Login successfull", token });
+    res.json({ msg:"User Logined in  successfull", token });
   } catch (error) {
     console.log("error: ", error.message);
     res.status(500).json(error.message);
