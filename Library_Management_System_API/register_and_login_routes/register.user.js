@@ -53,3 +53,7 @@ registerAndLoginRoute.post("/login", async (req, res) => {
 
 // exports the module
 module.exports = registerAndLoginRoute;
+
+
+
+
