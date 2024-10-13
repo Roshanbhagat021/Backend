@@ -3,7 +3,7 @@ const registerAndLoginRoute = require("./register_and_login_routes/register.user
 const connectToDB = require("./config/connect_db");
 require("dotenv").config();
 
-// accessing the port from .env file
+// accessing the PORT from .env file
 const port = process.env.PORT;
 const app = express();
 app.use(express.json());
