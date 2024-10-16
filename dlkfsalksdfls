@@ -1,0 +1,265 @@
+[33mcommit 672126a165c4a1063a67f522e3e75403e9ee92ef[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Oct 20 23:10:26 2024 +0530
+
+    new comment
+
+[33mcommit a548cb88db2e196d4a57c22c895440d57fccd5b0[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Oct 19 22:36:44 2024 +0530
+
+    added some comments
+
+[33mcommit 649547cc4252396687e3ab66253809f45bc91c2a[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Oct 18 22:53:45 2024 +0530
+
+    Hello commit
+
+[33mcommit f92076e64c9509ff21360f3a2a1594d0cd398af8[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Thu Oct 17 23:22:23 2024 +0530
+
+    person
+
+[33mcommit 81744c2b79d5c34957a117037b9bb44520c65d04[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Thu Oct 17 23:20:24 2024 +0530
+
+    nice
+
+[33mcommit e208ea888c579ea0fc0e921f8b388aa088b9d426[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Tue Oct 15 21:59:15 2024 +0530
+
+    up
+
+[33mcommit ef91aefa817393afea10d50a846e112645761823[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Tue Oct 15 21:56:35 2024 +0530
+
+    roshan
+
+[33mcommit 9e8d06b88ab64833921146ae57188c80597e89e7[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Mon Oct 14 17:10:18 2024 +0530
+
+    hello
+
+[33mcommit dce2e7dfa416873b0f7eff973246375a15ee1db7[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Mon Oct 14 16:58:05 2024 +0530
+
+    hello
+
+[33mcommit c2e44513a5cfb3318274a1cd02fd6459431ba0ca[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Oct 13 23:55:15 2024 +0530
+
+    added some comments
+
+[33mcommit 29e551cbe68bbc0ffb200d605a2824f3dc7955ad[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Thu Oct 10 23:28:37 2024 +0530
+
+    added some comments realated to .env file
+
+[33mcommit 15fa536478432ab21a9951ee124cd798e2319468[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Wed Oct 9 22:43:59 2024 +0530
+
+    added some comments on index.js file
+
+[33mcommit 938ad382d890771506222157ae1a49bb96498deb[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Tue Oct 8 22:45:04 2024 +0530
+
+    added some comments
+
+[33mcommit 740dacbf24582aafaa10bf7fc0cede2f464c1d22[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Mon Oct 7 22:45:09 2024 +0530
+
+    Added a comment in the code
+
+[33mcommit fe1371079afab4c929fb7f6116a7c67f7200cf40[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Oct 6 17:59:35 2024 +0530
+
+    token is working
+
+[33mcommit 314cdca1299b1d1ada013c032b7cbecde8f68e0c[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Oct 6 17:52:06 2024 +0530
+
+    library management
+
+[33mcommit 0298efd96de289724535a7f54349dcfe5b932705[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Oct 6 15:59:13 2024 +0530
+
+    created all the models and Schema that are required
+
+[33mcommit 7e20de1b800f3a29c803b7d1e78a603828142cee[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Oct 5 23:09:33 2024 +0530
+
+    create a movies db
+
+[33mcommit ccfcb05085de97fab767320d008d0bab3f0f8fec[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Oct 5 16:37:28 2024 +0530
+
+    added the version key because if it was not there mongodb was not able to detect the dublicate or unique true method
+
+[33mcommit c858b2f28679da7a0caee05c2c8c23e345d0f277[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Oct 5 15:48:42 2024 +0530
+
+    added the route for product and create its schema
+
+[33mcommit 7a731505d1c47846e685a5bd45b4faa58dee0c57[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Oct 5 15:14:11 2024 +0530
+
+    create a user schema and route for it
+
+[33mcommit 1b0267d795a9d29f4e50c96b39145d8b2f8fb999[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Oct 5 07:44:47 2024 +0530
+
+    started multer assignment but not completed yet
+
+[33mcommit a1faf144c1514e0c4c1a3d508cf0e9dc55061ee2[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Oct 4 19:06:47 2024 +0530
+
+    used the morgan logger and stored in access.log file
+
+[33mcommit 12ee241da005806b11ccc06568cd0b50ffdcb276[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Oct 4 16:39:28 2024 +0530
+
+    completed the assignment of  validation through middleware
+
+[33mcommit 85d410ac5afe429f99830315c09cbdeeded5e202[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Oct 4 15:22:59 2024 +0530
+
+    express routing assignment
+
+[33mcommit edfebd23f21e9309c7de2998637392cab47b35ce[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Thu Oct 3 23:04:04 2024 +0530
+
+    completed the express crud app
+
+[33mcommit faaea0521cca60311a94931bde71b5485246aece[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Wed Oct 2 23:56:16 2024 +0530
+
+    added some comments
+
+[33mcommit a04cc14d6a9c183804600f1fe2b6df69fea40cd2[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Wed Oct 2 23:48:08 2024 +0530
+
+    added some new files
+
+[33mcommit d675c9f55021fddb126f142435226023f1000278[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Tue Oct 1 15:51:07 2024 +0530
+
+    simple_express_app
+
+[33mcommit d01c460daa8cc407bc911dc3522a9126182ce76d[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Mon Sep 30 23:35:48 2024 +0530
+
+    image uploading
+
+[33mcommit 9949730fa7d23015c82622eac0511013ad98376a[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Sep 29 23:51:20 2024 +0530
+
+    learnt about sql
+
+[33mcommit c5846adc875c06478dd16bbd47791c49ee9e116b[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Sep 28 23:46:45 2024 +0530
+
+    cron npm package about scheduleing any task
+
+[33mcommit e20d87b3174a33ed794c861fc0cab875d26e3eae[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Sep 27 23:52:02 2024 +0530
+
+    http form assignment
+
+[33mcommit ad7fa87f11772f5f71c7b861a27ad4da55656512[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Thu Sep 26 23:32:31 2024 +0530
+
+    added dotenv file
+
+[33mcommit 38e4a71819d2a3e1555a230e5db09bdc47707d44[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Wed Sep 25 23:52:49 2024 +0530
+
+    done a http assignment
+
+[33mcommit 4d6915384eb61fbaaf7d1493d6d70cf97544a95d[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Wed Sep 25 01:46:27 2024 +0530
+
+    completed the mongodb assignment
+
+[33mcommit 8a8766f4db7a0a4407b34f438b2f7bed6602fad0[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Wed Sep 25 00:49:09 2024 +0530
+
+    completed the basic query param assignment
+
+[33mcommit 98a9f05476662c517c10c23fc3d17fad75af7659[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Tue Sep 24 23:50:37 2024 +0530
+
+    added some mongodb commands
+
+[33mcommit 04843c3dff5662df3eea9a848eae9543f0e9264c[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Mon Sep 23 23:48:50 2024 +0530
+
+    added some basic queries of mongodb
+
+[33mcommit 3c00bc673e11413b5cef1fa2f85558a91854ce8f[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sun Sep 22 23:54:21 2024 +0530
+
+    added some commands of mongoDB
+
+[33mcommit aa85fbe4aa37211679aab6355f935a90039f38bd[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Sep 21 23:45:35 2024 +0530
+
+    added some txt files related to basic queries of mongodb
+
+[33mcommit fef36563e2c35af271e3c3adcd3c5913bc151a5e[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Sat Sep 21 23:28:52 2024 +0530
+
+    mongodb assignment
+
+[33mcommit d89c14881cbe407cfa816ce31104b48e14ddd8a1[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Sep 20 19:50:30 2024 +0530
+
+    removed a mistake in http assignment
+
+[33mcommit 805956f0523eef54c2b6728ec14ed3ec6fde927e[m
+Author: Roshan kumar bhagat <roshanking021@gmail.com>
+Date:   Fri Sep 20 17:47:47 2024 +0530
+
+    url shortner
+
+[33mcommit f861965498c6448163156409e94444dd

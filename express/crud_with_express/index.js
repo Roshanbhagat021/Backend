@@ -45,7 +45,7 @@ app.post("/createtodo", async (req, res) => {
 
 })
 // updation the even ones
-// This is a new comment
+// This is a new comment and important because i learnt someting new today about github
 app.patch("/evenUpdate", async (req, res) => {
     try {
         fs.readFile("db.json", "utf-8", (err, data) => {
@@ -76,6 +76,11 @@ app.patch("/evenUpdate", async (req, res) => {
     }
 })
 
+// route for deleting the files
+// ok
+
+// ok or not 
+// thats all right
 app.delete("/deleteCompleted",async(req,res)=>{
     fs.readFile("db.json","utf-8",(err, data)=>{
         if (err){
