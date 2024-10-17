@@ -46,6 +46,7 @@ app.post("/createtodo", async (req, res) => {
 })
 // i am on the way
 // whare are you 
+// nice way to go
 
 app.patch("/evenUpdate", async (req, res) => {
     try {
