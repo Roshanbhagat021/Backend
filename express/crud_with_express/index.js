@@ -44,11 +44,7 @@ app.post("/createtodo", async (req, res) => {
 //hello
 
 })
-// i am on the way
-// whare are you 
-// nice way to go
-// performance is best 
-// Hello
+// updation the even ones
 app.patch("/evenUpdate", async (req, res) => {
     try {
         fs.readFile("db.json", "utf-8", (err, data) => {
