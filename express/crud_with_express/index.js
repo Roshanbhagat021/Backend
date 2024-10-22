@@ -78,6 +78,7 @@ app.patch("/evenUpdate", async (req, res) => {
 
 // route for deleting the files
 // Different commit
+// new commit 
 app.delete("/deleteCompleted",async(req,res)=>{
     fs.readFile("db.json","utf-8",(err, data)=>{
         if (err){
